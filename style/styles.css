@@ -1,0 +1,49 @@
+
+
+.button {
+	width: 139px;
+	height: 39px;
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	user-select: none;
+	padding: .5em 2em;
+	outline: none;
+	border: 2px solid;
+	border-radius: 2px;
+	transition: 0.2s;
+	position: relative;
+	top: -158px;
+}
+
+.button:hover {
+	background: rgba(102, 153, 153, .5);
+}
+
+.button:active {
+	background: rgb(153, 255, 204);
+}
+
+.hidden {
+	width: 30%;
+	height: 10%;
+	display: inline;
+}
+
+.animation {
+	animation: img 1s;
+}
+
+@keyframes img{
+	0% {
+		transform: translateY(40px);
+		opacity: .7;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
